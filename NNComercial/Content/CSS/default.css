@@ -1,0 +1,3888 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration:none;
+}
+
+.aleft {
+	text-align: left;
+}
+
+.aright {
+	text-align: right;
+}
+
+.acenter {
+	text-align: center;
+}
+
+.boxshadow {
+	-moz-box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+	box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+img {
+	text-decoration:none;
+	border:none;
+}
+
+@media only all and (min-width: 1920px) and (max-height: 1080px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 50px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 70px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 56px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 31px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 40px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 30px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 35px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 50px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 60px;
+		font-weight: normal;
+		padding: 30px 0;
+		margin-left: 50px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 22px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 30px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:100px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 30px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 20px/30px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 20px 0 40px;
+	}
+
+	.row {
+		margin-bottom: 20px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 50px;
+	}
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 70px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 60px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 150px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+	#separacaoCliente {
+		clear: both;
+		height: 40px;
+	}
+
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 22px;
+		padding-top: 75px;
+	}
+
+		#perguntas strong {
+			font-size: 27px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 28px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+	}
+
+	.left2 {
+		margin-left:150px;
+	}
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 60px;
+		font-weight:normal;
+	}
+
+	#divSix h2 {
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 25px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 17px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 16px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 430px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 730px; margin-top: 35px; float: right;
+	}
+
+	/*#endregion Footer */
+}
+
+@media only all and (min-width: 1680px) and (max-height: 1050px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 50px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 70px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 56px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 31px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 40px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 30px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 35px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 50px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 60px;
+		font-weight: normal;
+		padding: 30px 0;
+		margin-left: 50px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 22px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 30px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:100px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 30px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 20px/30px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 20px 0 40px;
+	}
+
+	.row {
+		margin-bottom: 20px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 50px;
+	}
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 70px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 60px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 150px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+	#separacaoCliente {
+		clear: both;
+		height: 40px;
+	}
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 22px;
+		padding-top: 75px;
+	}
+
+		#perguntas strong {
+			font-size: 27px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 28px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+	}
+
+	.left2 {
+		margin-left:150px;
+	}
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 60px;
+		font-weight:normal;
+	}
+
+	#divSix h2 {
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 25px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 17px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 16px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 430px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 500px; 
+		margin-top: 35px; 
+		float: right;
+	}
+
+	/*#endregion Footer */
+}
+
+@media only all and (min-width: 1600px) and (max-height: 900px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 50px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 65px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 51px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 27px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 35px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 26px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 31px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 50px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 60px;
+		font-weight: normal;
+		padding: 30px 0;
+		margin-left: 50px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 22px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 25px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:60px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 25px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 17px/27px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 20px 0 10px;
+	}
+
+	.row {
+		margin-bottom: 15px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 5px;
+	}
+
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 60px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 150px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+	#separacaoCliente {
+		clear: both;
+		height: 40px;
+	}
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 19px;
+		padding-top: 25px;
+	}
+
+		#perguntas strong {
+			font-size: 24px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 25px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+	}
+
+	.left2 {
+		margin-left:150px;
+	}
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 50px;
+		font-weight:normal;
+	}
+
+	#divSix h2 {
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 25px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 17px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 16px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 370px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 500px; 
+		margin-top: 35px; 
+		float: right;
+	}
+
+	/*#endregion Footer */
+}
+
+@media only all and (min-width: 1440px) and (max-height: 900px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 50px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 65px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 51px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 27px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 35px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 26px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 31px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 50px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 60px;
+		font-weight: normal;
+		padding: 30px 0;
+		margin-left: 50px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 22px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 25px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:60px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 25px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 17px/27px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 20px 0 10px;
+	}
+
+	.row {
+		margin-bottom: 15px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 5px;
+	}
+
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 60px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 150px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 19px;
+		padding-top: 25px;
+	}
+
+		#perguntas strong {
+			font-size: 24px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 25px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+	}
+
+	.left2 {
+		margin-left:150px;
+	}
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 50px;
+		font-weight:normal;
+	}
+
+	#divSix h2 {
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 25px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 17px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 16px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 330px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 400px; 
+		margin-top: 35px; 
+		float: right;
+	}
+
+	/*#endregion Footer */
+}
+
+@media only all and (min-width: 1400px) and (max-height: 1050px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 50px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 70px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 56px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 32px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 40px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 31px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 33px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 50px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 60px;
+		font-weight: normal;
+		padding: 30px 0;
+		margin-left: 50px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 22px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 28px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:100px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 28px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 20px/30px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 20px 0 10px;
+	}
+
+	.row {
+		margin-bottom: 15px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 40px;
+	}
+
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 80px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 60px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 150px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 23px;
+		padding-top: 30px;
+	}
+
+		#perguntas strong {
+			font-size: 28px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 29px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+	}
+
+	.left2 {
+		margin-left:150px;
+	}
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 60px;
+		font-weight:normal;
+		padding-top:30px;
+	}
+
+	#divSix h2 {
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 20px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 19px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 16px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 16px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 300px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 380px; 
+		margin-top: 35px; 
+		float: right;
+	}
+
+	/*#endregion Footer */
+}
+
+@media only all and (min-width: 1366px) and (max-height: 768px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 70px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		/*height: 100px;*/
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 20px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 63px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 49px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 25px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 33px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 29px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 120px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 50px;
+		font-weight: normal;
+		padding: 15px 0;
+		margin-left: 120px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 20px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 20px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:60px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 20px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 12px/22px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 10px 0 5px;
+	}
+
+	.row {
+		margin-bottom: 5px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 5px;
+	}
+
+	.imagemServico {
+		width:250px !important; 
+		height:150px !important;
+	}
+
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 50px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 110px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+    #clienteEspaco{
+        padding-top:10px !important;
+    }
+
+	.img1 {
+		width:150px !important;
+		margin-top:30px !important;
+	}
+
+	.img2 {
+		width:130px !important;
+		height:100px !important;
+		margin-top: 5px !important; 
+		margin-left: 12px !important;
+	}
+
+	.img3 {
+		width:150px !important; 
+		margin-top: 30px !important;
+		margin-left: 5px !important;
+	}
+
+	.img4 {
+		width:150px !important;
+		height:120px !important;
+		margin-top: 4px !important;
+		margin-left: 4px !important;
+	}
+
+	.img5 {
+		width:150px !important;
+		height:110px !important;
+		margin-top: 5px !important;
+		margin-left: 4px !important;
+	}
+
+	.img6 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img7 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img8 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img9 {
+		width:150px !important;
+		margin-top: 30px !important;
+		margin-left: 4px !important;
+	}
+
+	.img10 {
+		width:150px !important;
+		margin-top: 15px !important;
+		margin-left: 4px !important;
+	}
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 16px;
+		padding-top: 25px;
+	}
+
+		#perguntas strong {
+			font-size: 21px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+        margin-left:20px;
+	}
+
+	.left2 {
+		margin-left:80px;
+	}    
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 35px;
+		font-weight:normal;
+	}
+
+	#divSix h2 {
+		padding-bottom:15px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 13px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 13px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 13px;
+		margin-top: 5px;
+		padding: 5px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 13px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+    #Texto{
+        height:80px !important;
+    }
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 250px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 380px; 
+		margin-top: 35px; 
+		float: right;
+	}
+
+	/*#endregion Footer */
+}
+
+@media only all and (min-width: 1360px) and (max-height: 768px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 70px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		/*height: 100px;*/
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 20px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 63px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 49px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 25px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 33px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 29px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 120px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 50px;
+		font-weight: normal;
+		padding: 15px 0;
+		margin-left: 120px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 20px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 20px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:60px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 20px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 12px/22px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 10px 0 5px;
+	}
+
+	.row {
+		margin-bottom: 5px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 5px;
+	}
+
+	.imagemServico {
+		width:250px !important; 
+		height:150px !important;
+	}
+
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 50px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 110px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+    #clienteEspaco{
+        padding-top:10px !important;
+    }
+
+	.img1 {
+		width:150px !important;
+		margin-top:30px !important;
+	}
+
+	.img2 {
+		width:130px !important;
+		height:100px !important;
+		margin-top: 5px !important; 
+		margin-left: 12px !important;
+	}
+
+	.img3 {
+		width:150px !important; 
+		margin-top: 30px !important;
+		margin-left: 5px !important;
+	}
+
+	.img4 {
+		width:150px !important;
+		height:120px !important;
+		margin-top: 4px !important;
+		margin-left: 4px !important;
+	}
+
+	.img5 {
+		width:150px !important;
+		height:110px !important;
+		margin-top: 5px !important;
+		margin-left: 4px !important;
+	}
+
+	.img6 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img7 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img8 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img9 {
+		width:150px !important;
+		margin-top: 30px !important;
+		margin-left: 4px !important;
+	}
+
+	.img10 {
+		width:150px !important;
+		margin-top: 15px !important;
+		margin-left: 4px !important;
+	}
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 16px;
+		padding-top: 25px;
+	}
+
+		#perguntas strong {
+			font-size: 21px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+        margin-left:20px;
+	}
+
+	.left2 {
+		margin-left:80px;
+	}    
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 35px;
+		font-weight:normal;
+	}
+
+	#divSix h2 {
+		padding-bottom:15px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 13px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 13px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 13px;
+		margin-top: 5px;
+		padding: 5px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 13px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+    #Texto{
+        height:80px !important;
+    }
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 250px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 380px; 
+		margin-top: 35px; 
+		float: right;
+	}
+
+	/*#endregion Footer */
+}
+
+@media only all and (min-width: 1280px) and (max-height: 768px) {
+	/*#region Global */
+
+	.logo {
+	}
+
+	.divMenu {
+		background: url(/Content/Imagens/header.jpg) repeat-x;
+		background-size: cover;
+		color: #FFF;
+		height: 89px;
+		width: 100%;
+		position: absolute;
+	}
+
+		.divMenu nav {
+			width: 800px;
+			margin: 0 auto;
+			padding-left: 450px;
+		}
+
+		.divMenu ul li {
+			float: left;
+			list-style-type: none;
+			margin-top: 15px;
+		}
+
+			.divMenu ul li a {
+				font: normal 15px/1.8em "Marvel", serif;
+				color: #fff;
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-bottom: 9px;
+				font-family: "Aovel Cool Regular", sans-serif;
+			}
+
+				.divMenu ul li a.up {
+					border-bottom: 3px solid #ddd;
+				}
+
+				.divMenu ul li a:link, .divMenu ul li a:visited {
+					text-decoration: none;
+				}
+
+	.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+	#divFirst {
+		background: url(/Content/Imagens/bck-1.1.jpg);
+		background-size: cover;
+		padding-top: 100px;
+	}
+
+	#divSecond {
+		background: url(/Content/Imagens/bck-2.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFourth {
+		background: url(/Content/Imagens/bck-3.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divFifth {
+		background: url(/Content/Imagens/bck-4.jpg) repeat;
+		padding-top: 100px;
+	}
+
+	#divSix {
+		background: url(/Content/Imagens/bck-6.jpg) repeat;
+		padding-top: 70px;
+	}
+
+	#divFooter {
+		background: #ffffff;
+		width: 100%;
+		/*height: 100px;*/
+		bottom: 0;
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		width: 1040px;
+	}
+
+	/*#endregion Global */
+
+	/*#region Home */
+
+	#h1Home {
+		margin-bottom: 0;
+		padding: 20px 0 0;
+	}
+
+	.sHome1 {
+		color: #7e7e7e;
+		display: block;
+		font-size: 63px;
+		font-weight: 100;
+	}
+
+	.sHome2 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 49px;
+		font-weight: 100;
+	}
+
+	.sHome3 {
+		color: #5f5f5f;
+		display: block;
+		font-size: 25px;
+		font-weight: 100;
+		margin-top: 10px;
+	}
+
+	.sHome4 {
+		background: #646363;
+		color: #fff;
+		font-size: 33px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	.sHome5 {
+		background: #417a00;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 100;
+		padding: 5px 10px;
+	}
+
+	.sHome6 {
+		background: #646363;
+		color: #fff;
+		font-size: 29px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+	/*#endregion Home */
+
+	/*#region Usinagem */
+
+	#usinagemMain {
+		height: 100%;
+		margin-left: 120px;
+	}
+
+	#usinagemOne {
+		height: 58%;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#imagemUsinagem {
+		border-radius: 3px;
+		border: 3px solid lightgray;
+		float: left;
+		width: 480px;
+		height: 300px;
+	}
+
+	#textoUsinagem {
+		height: 58%;
+		width: 45%;
+		float: right;
+	}
+
+	#divSecond h1 {
+		margin: 0 0 25px 0;
+		color: #417a00;
+		font-size: 50px;
+		font-weight: normal;
+		padding: 15px 0;
+		margin-left: 120px;
+	}
+
+	.sUsina {
+		font-family: 'Comic Sans MS';
+		color: #000;
+		font-size: 20px;
+		font-weight: 100;
+		padding: 0 10px 5px;
+	}
+
+    #subTextUsina{
+        font-size:22px !important;
+        width: 500px;
+    }
+	/*#endregion Usinagem */
+
+	/*#region Serviços */
+
+	#divThird h1{
+		font-size: 20px;
+		line-height: 1.2;
+		margin: 0 auto 14px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+		margin-top:60px;
+	}
+
+	#divThird h2, .h2 {
+		font-size: 20px;
+		line-height: 1.2;
+		margin: 0 auto 20px;
+		font-weight: normal;
+		text-align: center;
+		border-top: 1px solid #d3d3d3;
+		border-bottom: 1px solid #d3d3d3;
+		padding: 12px 0;
+	}
+
+	p.background {
+		font: 12px/22px 'Open Sans', chaparral-pro-1,chaparral-pro-2, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #646464;
+		text-align: center;
+		margin: 10px 0 5px;
+	}
+
+	.row {
+		margin-bottom: 5px;
+	}
+
+	.container .one-third.column {
+		width: 300px;
+	}
+
+	.container .one-third.column {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.column.alpha, .columns.alpha {
+		margin-left: 0;
+	}
+
+	.column, .columns {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.omega, .columns.omega {
+		margin-right: 0;
+	}
+
+	.container .one-third.column p {
+		margin: 0 auto 10px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	div.section img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.clearfix:before, .clearfix:after, .row:before, .row:after {
+		content: '\0020';
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#mensagemServico {
+		 margin-top: 5px;
+	}
+
+	.imagemServico {
+		width:250px !important; 
+		height:150px !important;
+	}
+
+	/*#endregion Serviços */
+
+	/*#region Clientes */
+
+	#clientes {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+
+		#clientes h1 {
+			color: white;
+			font-size: 50px;
+			margin: 0 0 45px 0;
+			font-weight: normal;
+		}
+
+	.divClient {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+		float: left;
+		height: 110px;
+		margin: 0 20px 20px 0;
+		overflow: hidden;
+		padding: 5px 10px;
+		width: 160px;
+	}
+
+		.divClient.last {
+			margin-right: 0;
+		}
+
+	.divClientTrees {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		z-index: 2;
+	}
+
+		.divClientTrees span {
+			color: #898989;
+			font-size: 13px;
+		}
+
+    #clienteEspaco{
+        padding-top:10px !important;
+    }
+
+	.img1 {
+		width:150px !important;
+		margin-top:30px !important;
+	}
+
+	.img2 {
+		width:130px !important;
+		height:100px !important;
+		margin-top: 5px !important; 
+		margin-left: 12px !important;
+	}
+
+	.img3 {
+		width:150px !important; 
+		margin-top: 30px !important;
+		margin-left: 5px !important;
+	}
+
+	.img4 {
+		width:150px !important;
+		height:120px !important;
+		margin-top: 4px !important;
+		margin-left: 4px !important;
+	}
+
+	.img5 {
+		width:150px !important;
+		height:110px !important;
+		margin-top: 5px !important;
+		margin-left: 4px !important;
+	}
+
+	.img6 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img7 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img8 {
+		width:150px !important;
+		margin-top: 25px !important;
+	}
+
+	.img9 {
+		width:150px !important;
+		margin-top: 30px !important;
+		margin-left: 4px !important;
+	}
+
+	.img10 {
+		width:150px !important;
+		margin-top: 15px !important;
+		margin-left: 4px !important;
+	}
+	/*#endregion Clientes */
+
+	/*#region Perguntas */
+
+	#perguntas {
+		color: #000000;
+		font-size: 16px;
+		padding-top: 25px;
+	}
+
+		#perguntas strong {
+			font-size: 21px;
+		}
+
+	.sHome7 {
+		background: #646363;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 100;
+		padding: 0 5px 2px;
+	}
+
+	/*#endregion Perguntas */
+
+	/*#region Contato */
+
+	.coluna {
+		float: left;
+	}
+
+	.left {
+		width: 49%;
+        margin-left:20px;
+	}
+
+	.left2 {
+		margin-left:80px;
+	}    
+
+	#divSix h1 {
+		color: #FFF;
+		font-size: 35px;
+		font-weight:normal;
+	}
+
+	#divSix h2 {
+		padding-bottom:15px;
+	}
+
+	#divSix h2 a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 100%;
+	font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix h3 {
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 100%;
+		color: white;
+		font-family: 'ubuntu', sans-serif !important;
+	}
+
+	#divSix h4 {
+		font-size: 13px;
+		line-height: 100%;
+		color: white;
+		font-weight:100;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix label {
+		color: #fff;
+		font-size: 13px;
+		font-family: 'Ubuntu', Arial !important;
+	}
+
+	#divSix input[type="text"], #divSix textarea {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		font-size: 13px;
+		margin-top: 5px;
+		padding: 5px;
+	}
+
+	#divSix input[type="submit"] {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #707070;
+		border: 0 none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 13px;
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 5px 10px;
+	}
+
+		#divSix input[type="submit"]:hover {
+			background: #888;
+		}
+
+    #Texto{
+        height:80px !important;
+    }
+	/*#endregion Contato */
+
+	/*#region Footer */
+
+	#footerOne {
+		margin-left: 200px; 
+		margin-top: 10px; 
+		float: left;
+	}
+
+	#footerTwo {
+		margin-right: 350px; 
+		margin-top: 35px; 
+		float: right;
+	}
+
+	/*#endregion Footer */
+}
