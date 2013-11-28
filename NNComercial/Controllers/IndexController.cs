@@ -39,7 +39,7 @@ namespace NNComercial.Controllers
             
 
             SmtpClient client = new SmtpClient("smtp.nncomercial.com", 587);
-            client.Credentials = new NetworkCredential("site@nncomercial.com", "Draculla@10");
+            client.Credentials = new NetworkCredential("site@nncomercial.com", "######");
 
             try
             {
